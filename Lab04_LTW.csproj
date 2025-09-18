@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\plugins\jsgrid\demos\" />
+    <Folder Include="wwwroot\plugins\jsgrid\i18n\" />
+    <Folder Include="wwwroot\plugins\jszip\" />
+    <Folder Include="wwwroot\plugins\moment\locale\" />
+    <Folder Include="wwwroot\plugins\overlayScrollbars\css\" />
+    <Folder Include="wwwroot\plugins\overlayScrollbars\js\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\black\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\blue\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\green\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\orange\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\pink\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\purple\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\red\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\silver\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\white\" />
+    <Folder Include="wwwroot\plugins\pace-progress\themes\yellow\" />
+    <Folder Include="wwwroot\plugins\pdfmake\" />
+    <Folder Include="wwwroot\plugins\popper\esm\" />
+    <Folder Include="wwwroot\plugins\popper\umd\" />
+    <Folder Include="wwwroot\plugins\raphael\" />
+    <Folder Include="wwwroot\plugins\select2-bootstrap4-theme\" />
+    <Folder Include="wwwroot\plugins\select2\css\" />
+    <Folder Include="wwwroot\plugins\select2\js\i18n\" />
+    <Folder Include="wwwroot\plugins\sparklines\" />
+    <Folder Include="wwwroot\plugins\summernote\font\" />
+    <Folder Include="wwwroot\plugins\summernote\lang\" />
+    <Folder Include="wwwroot\plugins\summernote\plugin\databasic\" />
+    <Folder Include="wwwroot\plugins\summernote\plugin\hello\" />
+    <Folder Include="wwwroot\plugins\summernote\plugin\specialchars\" />
+    <Folder Include="wwwroot\plugins\sweetalert2-theme-bootstrap-4\" />
+    <Folder Include="wwwroot\plugins\sweetalert2\" />
+    <Folder Include="wwwroot\plugins\tempusdominus-bootstrap-4\css\" />
+    <Folder Include="wwwroot\plugins\tempusdominus-bootstrap-4\js\" />
+    <Folder Include="wwwroot\plugins\toastr\" />
+    <Folder Include="wwwroot\plugins\uplot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
